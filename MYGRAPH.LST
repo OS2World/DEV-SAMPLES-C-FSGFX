@@ -1,0 +1,73 @@
+_alphabet.........G_SETGPH          _g_clrscn.........G_CLRSCN
+_g_dot............G_DOT             _g_doters.........G_DOTERS
+_g_drwbtn.........G_DRWBTN          _g_fselect........G_FSELCT
+_g_gets...........G_GETS            _g_hfader.........G_HFADER
+_g_line...........G_LINE            _g_msgbox.........G_MSGBOX
+_g_puts...........G_PUTS            _g_rdrwth.........G_RDRWTH
+_g_rmdth..........G_RMDTH           _g_rmode..........G_RMODE
+_g_setgph.........G_SETGPH          _g_vfader.........G_VFADER
+_maintaincursor...MYMOUSE           _MouseDeviceStatus..MYMOUSE
+_mousemaxx........MYMOUSE           _mousemaxy........MYMOUSE
+_mouseminx........MYMOUSE           _mouseminy........MYMOUSE
+_mousex...........MYMOUSE           _mousey...........MYMOUSE
+_mshidecur........MYMOUSE           _msinitgrph.......MYMOUSE
+_msinittext.......MYMOUSE           _msshowcur........MYMOUSE
+_msstatustext.....MYMOUSE           _oldtextx.........G_SETGPH
+_oldtexty.........G_SETGPH          _ptinrect.........PTINRECT
+_redrawmode.......G_SETGPH          _showcursor.......MYMOUSE
+
+
+G_FSELCT          Offset: 00000010H  Code and data size: e200H
+  _g_fselect      
+
+G_CLRSCN          Offset: 00000b60H  Code and data size: 28H
+  _g_clrscn       
+
+G_DOT             Offset: 00000ce0H  Code and data size: 98H
+  _g_dot          
+
+G_DOTERS          Offset: 00000ef0H  Code and data size: 48H
+  _g_doters       
+
+G_DRWBTN          Offset: 00001090H  Code and data size: 160H
+  _g_drwbtn       
+
+G_GETS            Offset: 00001380H  Code and data size: 188H
+  _g_gets         
+
+G_HFADER          Offset: 000016e0H  Code and data size: f0H
+  _g_hfader       
+
+G_LINE            Offset: 00001930H  Code and data size: 154H
+  _g_line         
+
+G_MSGBOX          Offset: 00001c10H  Code and data size: 150H
+  _g_msgbox       
+
+G_PUTS            Offset: 00001ee0H  Code and data size: 196H
+  _g_puts         
+
+G_RDRWTH          Offset: 00002250H  Code and data size: 19eH
+  _g_rdrwth       
+
+G_RMDTH           Offset: 000026b0H  Code and data size: e9H
+  _g_rmdth        
+
+G_RMODE           Offset: 00002980H  Code and data size: 63H
+  _g_rmode        
+
+G_SETGPH          Offset: 00002b70H  Code and data size: 25a2H
+  _alphabet         _g_setgph         _oldtextx         _oldtexty
+  _redrawmode     
+
+G_VFADER          Offset: 00004d50H  Code and data size: 104H
+  _g_vfader       
+
+PTINRECT          Offset: 00004fe0H  Code and data size: 2eH
+  _ptinrect       
+
+MYMOUSE           Offset: 00005140H  Code and data size: 64dH
+  _maintaincursor   _MouseDeviceStatus                  _mousemaxx
+  _mousemaxy        _mouseminx        _mouseminy        _mousex
+  _mousey           _mshidecur        _msinitgrph       _msinittext
+  _msshowcur        _msstatustext     _showcursor     

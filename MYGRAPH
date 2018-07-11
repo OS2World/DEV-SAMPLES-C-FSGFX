@@ -1,0 +1,30 @@
+_drawbox..........drawbox           _drawhfader.......drawhfdr
+_drawvfdr.........drawvfdr          _g_dot............g_dot
+_g_doters.........g_doters          _g_gets...........g_gets
+_g_puts...........g_puts            _oldtextx.........mygraph
+_oldtexty.........mygraph           _redrawmode.......mygraph
+
+
+g_puts            Offset: 00000010H  Code and data size: 196H
+  _g_puts         
+
+g_gets            Offset: 00000360H  Code and data size: 188H
+  _g_gets         
+
+mygraph           Offset: 000006b0H  Code and data size: 6H
+  _oldtextx         _oldtexty         _redrawmode     
+
+g_dot             Offset: 00000830H  Code and data size: 98H
+  _g_dot          
+
+g_doters          Offset: 00000a30H  Code and data size: 48H
+  _g_doters       
+
+drawbox           Offset: 00000bb0H  Code and data size: 150H
+  _drawbox        
+
+drawhfdr          Offset: 00000e60H  Code and data size: f0H
+  _drawhfader     
+
+drawvfdr          Offset: 000010a0H  Code and data size: 104H
+  _drawvfdr       
